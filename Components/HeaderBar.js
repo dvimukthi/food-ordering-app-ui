@@ -21,11 +21,14 @@ export default class HeaderBar extends Component {
 const styles = StyleSheet.create({
   Container: {
     flexDirection: "row",
+    backgroundColor: "orange",
   },
   ListBtn: {},
   ShoppingBagBtn: {},
   ProfileImage: {
-    height: 30,
-    width: 30,
+    marginLeft: "70%",
+    height: 60,
+    width: 60,
+    borderRadius: 18,
   },
 });
