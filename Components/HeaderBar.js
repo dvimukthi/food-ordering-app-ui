@@ -18,4 +18,14 @@ export default class HeaderBar extends Component {
   }
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  Container: {
+    flexDirection: "row",
+  },
+  ListBtn: {},
+  ShoppingBagBtn: {},
+  ProfileImage: {
+    height: 30,
+    width: 30,
+  },
+});
