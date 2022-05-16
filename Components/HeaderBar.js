@@ -21,6 +21,8 @@ export default class HeaderBar extends Component {
 const styles = StyleSheet.create({
   Container: {
     flexDirection: "row",
+    marginTop: 15,
+    backgroundColor: "orange",
   },
   ListBtn: {
     paddingTop: 15,
