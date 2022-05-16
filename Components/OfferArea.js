@@ -4,11 +4,16 @@ import React, { Component } from "react";
 export default class OfferArea extends Component {
   render() {
     return (
-      <View>
-        <Text>OfferArea</Text>
+      <View style={styles.Container}>
+        <Image
+          style={styles.ProfileImage}
+          source={require("../Assets/grapes.png")}
+        />
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  Container: {},
+});
