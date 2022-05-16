@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
   OfferAreaImg: {
     height: 250,
-    width: 500,
+    width: 370,
     marginLeft: 80,
   },
 });
