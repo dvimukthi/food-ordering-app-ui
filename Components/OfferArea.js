@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
     width: "auto",
     marginLeft: 5,
     marginRight: 5,
+    borderRadius: 25,
     backgroundColor: "red",
   },
   OfferAreaImg: {
