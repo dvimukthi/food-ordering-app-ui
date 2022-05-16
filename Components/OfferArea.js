@@ -6,7 +6,7 @@ export default class OfferArea extends Component {
     return (
       <View style={styles.Container}>
         <Image
-          style={styles.ProfileImage}
+          style={styles.OfferAreaImg}
           source={require("../Assets/grapes.png")}
         />
       </View>
@@ -15,5 +15,17 @@ export default class OfferArea extends Component {
 }
 
 const styles = StyleSheet.create({
-  Container: {},
+  Container: {
+    marginTop: 30,
+    height: 250,
+    width: "auto",
+    marginLeft: 5,
+    marginRight: 5,
+    backgroundColor: "red",
+  },
+  OfferAreaImg: {
+    height: 250,
+    width: 500,
+    marginLeft: 80,
+  },
 });
