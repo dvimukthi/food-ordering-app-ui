@@ -21,12 +21,16 @@ export default class HeaderBar extends Component {
 const styles = StyleSheet.create({
   Container: {
     flexDirection: "row",
-    backgroundColor: "orange",
   },
-  ListBtn: {},
-  ShoppingBagBtn: {},
+  ListBtn: {
+    paddingTop: 15,
+  },
+  ShoppingBagBtn: {
+    paddingTop: 15,
+    marginLeft: "65%",
+  },
   ProfileImage: {
-    marginLeft: "70%",
+    marginLeft: "4%",
     height: 60,
     width: 60,
     borderRadius: 18,
