@@ -1,11 +1,12 @@
 import { Text, StyleSheet, View, StatusBar } from "react-native";
 import React, { Component } from "react";
+import HeaderBar from "../Components/HeaderBar";
 
 export default class Home extends Component {
   render() {
     return (
       <View style={styles.MainScreenContainer}>
-        <Text>Home</Text>
+        <HeaderBar />
       </View>
     );
   }
