@@ -1,15 +1,6 @@
 import { View, Text } from "react-native";
+import Home from "./Screens/Home";
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Food Ordering App</Text>
-    </View>
-  );
+  return <Home />;
 }
