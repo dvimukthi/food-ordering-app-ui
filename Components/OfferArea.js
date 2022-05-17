@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     borderRadius: 25,
-    backgroundColor: "red",
+    backgroundColor: "#124559",
   },
   OfferAreaImg: {
     height: 250,
