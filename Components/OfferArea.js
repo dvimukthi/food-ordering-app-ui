@@ -1,14 +1,16 @@
-import { Text, StyleSheet, View, Image } from "react-native";
+import { Text, StyleSheet, View, Image, ImageBackground } from "react-native";
 import React, { Component } from "react";
 
 export default class OfferArea extends Component {
   render() {
     return (
       <View style={styles.Container}>
-        <Image
+        <ImageBackground
           style={styles.OfferAreaImg}
           source={require("../Assets/grapes.png")}
-        />
+        >
+          <Text style={styles.OfferText}>OFFER</Text>
+        </ImageBackground>
       </View>
     );
   }
@@ -27,6 +29,11 @@ const styles = StyleSheet.create({
   OfferAreaImg: {
     height: 250,
     width: 370,
-    marginLeft: 80,
+  },
+  OfferText: {
+    fontSize: 20,
+    marginLeft: "80%",
+    color: "yellow",
+    fontWeight: "bold",
   },
 });
