@@ -10,6 +10,7 @@ export default class OfferArea extends Component {
           source={require("../Assets/grapes.png")}
         >
           <Text style={styles.OfferText}>OFFER</Text>
+          <Text style={styles.DiscountText}>25% Off</Text>
         </ImageBackground>
       </View>
     );
@@ -34,6 +35,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     marginLeft: "80%",
     color: "yellow",
+    fontWeight: "bold",
+  },
+  DiscountText: {
+    fontSize: 30,
+    marginLeft: "66%",
+    color: "white",
     fontWeight: "bold",
   },
 });
