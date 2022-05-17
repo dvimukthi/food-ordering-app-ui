@@ -1,4 +1,12 @@
-import { Text, StyleSheet, View, Image, ImageBackground } from "react-native";
+import {
+  Text,
+  StyleSheet,
+  View,
+  Image,
+  ImageBackground,
+  Button,
+  TouchableOpacity,
+} from "react-native";
 import React, { Component } from "react";
 
 export default class OfferArea extends Component {
@@ -15,6 +23,9 @@ export default class OfferArea extends Component {
             In honor of World Health Day we'd like to give you this amazing
             offer
           </Text>
+          <TouchableOpacity onPress={() => {}} style={styles.ViewOfferBtn}>
+            <Text style={styles.ViewOfferText}>View Offer</Text>
+          </TouchableOpacity>
         </ImageBackground>
       </View>
     );
@@ -33,17 +44,18 @@ const styles = StyleSheet.create({
   },
   OfferAreaImg: {
     height: 250,
-    width: 370,
+    width: 390,
   },
   OfferText: {
+    marginTop: 20,
     fontSize: 20,
-    marginLeft: "82%",
+    marginLeft: "83%",
     color: "yellow",
     fontWeight: "bold",
   },
   DiscountText: {
     fontSize: 30,
-    marginLeft: "68%",
+    marginLeft: "69%",
     color: "white",
     fontWeight: "bold",
   },
@@ -53,5 +65,20 @@ const styles = StyleSheet.create({
     textAlign: "right",
     color: "yellow",
     fontWeight: "400",
+  },
+  ViewOfferBtn: {
+    backgroundColor: "orange",
+    borderRadius: 20,
+    borderColor: "#CB997E",
+    borderWidth: 1,
+    marginTop: 18,
+    marginLeft: "70%",
+    elevation: 5,
+    padding: 10,
+    width: "30%",
+  },
+  ViewOfferText: {
+    textAlign: "center",
+    fontWeight: "bold",
   },
 });
