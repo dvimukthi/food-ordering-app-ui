@@ -11,6 +11,10 @@ export default class OfferArea extends Component {
         >
           <Text style={styles.OfferText}>OFFER</Text>
           <Text style={styles.DiscountText}>25% Off</Text>
+          <Text numberOfLines={2} style={styles.DescriptionText}>
+            In honor of World Health Day we'd like to give you this amazing
+            offer
+          </Text>
         </ImageBackground>
       </View>
     );
@@ -33,14 +37,21 @@ const styles = StyleSheet.create({
   },
   OfferText: {
     fontSize: 20,
-    marginLeft: "80%",
+    marginLeft: "82%",
     color: "yellow",
     fontWeight: "bold",
   },
   DiscountText: {
     fontSize: 30,
-    marginLeft: "66%",
+    marginLeft: "68%",
     color: "white",
     fontWeight: "bold",
+  },
+  DescriptionText: {
+    fontSize: 17,
+    marginLeft: "13%",
+    textAlign: "right",
+    color: "yellow",
+    fontWeight: "400",
   },
 });
