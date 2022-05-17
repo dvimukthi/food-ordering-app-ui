@@ -54,12 +54,14 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   DiscountText: {
+    marginTop: 5,
     fontSize: 30,
     marginLeft: "69%",
     color: "red",
     fontWeight: "bold",
   },
   DescriptionText: {
+    marginTop: 6,
     fontSize: 17,
     marginLeft: "13%",
     textAlign: "right",
