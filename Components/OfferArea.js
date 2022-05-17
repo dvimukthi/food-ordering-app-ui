@@ -56,15 +56,15 @@ const styles = StyleSheet.create({
   DiscountText: {
     fontSize: 30,
     marginLeft: "69%",
-    color: "white",
+    color: "red",
     fontWeight: "bold",
   },
   DescriptionText: {
     fontSize: 17,
     marginLeft: "13%",
     textAlign: "right",
-    color: "yellow",
-    fontWeight: "400",
+    color: "white",
+    fontWeight: "bold",
   },
   ViewOfferBtn: {
     backgroundColor: "orange",
