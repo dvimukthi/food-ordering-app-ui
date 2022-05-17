@@ -2,6 +2,7 @@ import { Text, StyleSheet, View, StatusBar } from "react-native";
 import React, { Component } from "react";
 import HeaderBar from "../Components/HeaderBar";
 import OfferArea from "../Components/OfferArea";
+import MainArea from "../Components/MainArea";
 
 export default class Home extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class Home extends Component {
       <View style={styles.MainScreenContainer}>
         <HeaderBar />
         <OfferArea />
+        <MainArea />
       </View>
     );
   }
