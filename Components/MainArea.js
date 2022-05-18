@@ -7,8 +7,10 @@ export default class MainArea extends Component {
     return (
       <View style={styles.Container}>
         <Text style={styles.FruitText}>Fruits</Text>
-        <Text style={styles.ViewText}>View All</Text>
-        <AntDesign name="arrowright" style={styles.ArrowBtn} size={30} />
+        <Text style={styles.ViewText}>
+          View All{" "}
+          <AntDesign name="arrowright" style={styles.ArrowBtn} size={30} />
+        </Text>
       </View>
     );
   }
@@ -21,6 +23,10 @@ const styles = StyleSheet.create({
   FruitText: {
     fontSize: 18,
   },
-  ViewText: {},
+  ViewText: {
+    fontSize: 12,
+    fontWeight: "bold",
+    color: "orange",
+  },
   ArrowBtn: {},
 });
