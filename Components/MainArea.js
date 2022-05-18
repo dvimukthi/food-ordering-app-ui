@@ -1,4 +1,4 @@
-import { Text, StyleSheet, View } from "react-native";
+import { Text, StyleSheet, View, Image } from "react-native";
 import React, { Component } from "react";
 import AntDesign from "react-native-vector-icons/AntDesign";
 
@@ -12,6 +12,12 @@ export default class MainArea extends Component {
             View All{" "}
             <AntDesign name="arrowright" style={styles.ArrowBtn} size={12} />
           </Text>
+        </View>
+        <View style={styles.ImageContainer}>
+          <Image
+            style={styles.image}
+            source={require("../Assets/orange.png")}
+          />
         </View>
       </View>
     );
@@ -40,4 +46,5 @@ const styles = StyleSheet.create({
     color: "orange",
   },
   ArrowBtn: {},
+  ImageContainer: {},
 });
