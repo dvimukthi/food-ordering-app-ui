@@ -76,7 +76,28 @@ const styles = StyleSheet.create({
     backgroundColor: "green",
   },
   FruitText: {
-    fontSize: 18,
+    fontSize: 14,
     color: "yellow",
+    marginLeft: 10,
+  },
+  FruitNameText: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: "bold",
+    marginLeft: 10,
+  },
+  Reviews: {
+    color: "orange",
+    marginLeft: 10,
+  },
+  StarBtn: {
+    color: "yellow",
+  },
+  Price: {
+    marginTop: 5,
+    marginLeft: 10,
+    color: "orange",
+    fontSize: 22,
+    fontWeight: "bold",
   },
 });
