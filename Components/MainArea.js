@@ -23,10 +23,13 @@ export default class MainArea extends Component {
             <Text style={styles.FruitNameText}>Orange</Text>
             <Text style={styles.Reviews}>
               {" "}
-              <AntDesign name="star" style={styles.StarBtn} size={12} />
+              <AntDesign name="star" style={styles.StarBtn} size={18} />
               (451 Reviews)
             </Text>
-            <Text style={styles.Price}>$ 4.99</Text>
+            <View style={styles.PriceContainer}>
+              <Text style={styles.Price}>$4.99</Text>
+              <Text style={styles.Weight}>per Kg</Text>
+            </View>
           </View>
         </View>
       </View>
@@ -88,7 +91,7 @@ const styles = StyleSheet.create({
   },
   Reviews: {
     color: "orange",
-    marginLeft: 10,
+    marginLeft: 7,
   },
   StarBtn: {
     color: "yellow",
@@ -100,4 +103,5 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
   },
+  Weight: {},
 });
