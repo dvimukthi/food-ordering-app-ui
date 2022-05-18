@@ -5,19 +5,21 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 export default class MainArea extends Component {
   render() {
     return (
-      <View style={styles.Container}>
-        <Text style={styles.FruitText}>Fruits</Text>
-        <Text style={styles.ViewText}>
-          View All{" "}
-          <AntDesign name="arrowright" style={styles.ArrowBtn} size={30} />
-        </Text>
+      <View style={styles.MainContainer}>
+        <View style={styles.Container}>
+          <Text style={styles.FruitText}>Fruits</Text>
+          <Text style={styles.ViewText}>
+            View All{" "}
+            <AntDesign name="arrowright" style={styles.ArrowBtn} size={12} />
+          </Text>
+        </View>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  Container: {
+  MainContainer: {
     backgroundColor: "red",
   },
   FruitText: {
