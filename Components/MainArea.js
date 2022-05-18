@@ -19,7 +19,9 @@ export default class MainArea extends Component {
 }
 
 const styles = StyleSheet.create({
-  MainContainer: {},
+  MainContainer: {
+    margin: 5,
+  },
   Container: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -28,10 +30,12 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 18,
     fontWeight: "bold",
+    marginLeft: 10,
   },
   ViewText: {
     textAlignVertical: "center",
     fontSize: 12,
+    marginRight: 10,
     fontWeight: "bold",
     color: "orange",
   },
