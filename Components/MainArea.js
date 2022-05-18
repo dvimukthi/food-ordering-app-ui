@@ -7,7 +7,7 @@ export default class MainArea extends Component {
     return (
       <View style={styles.MainContainer}>
         <View style={styles.Container}>
-          <Text style={styles.FruitText}>Fruits</Text>
+          <Text style={styles.FruitsText}>Fruits</Text>
           <Text style={styles.ViewText}>
             View All{" "}
             <AntDesign name="arrowright" style={styles.ArrowBtn} size={12} />
@@ -19,14 +19,14 @@ export default class MainArea extends Component {
             source={require("../Assets/orange.png")}
           />
           <View style={styles.TextContainer}>
-            <Text>Fruit</Text>
-            <Text>Orange</Text>
-            <Text>
+            <Text style={styles.FruitText}>FRUIT</Text>
+            <Text style={styles.FruitNameText}>Orange</Text>
+            <Text style={styles.Reviews}>
               {" "}
-              <AntDesign name="star" style={styles.ArrowBtn} size={12} />
+              <AntDesign name="star" style={styles.StarBtn} size={12} />
               (451 Reviews)
             </Text>
-            <Text>$ 4.99</Text>
+            <Text style={styles.Price}>$ 4.99</Text>
           </View>
         </View>
       </View>
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
   },
-  FruitText: {
+  FruitsText: {
     color: "white",
     fontSize: 18,
     fontWeight: "bold",
@@ -63,7 +63,6 @@ const styles = StyleSheet.create({
     borderTopStartRadius: 90,
     borderTopEndRadius: 90,
     marginTop: 20,
-    //alignItems: "center",
   },
   OrangeImage: {
     alignSelf: "center",
@@ -75,5 +74,9 @@ const styles = StyleSheet.create({
     borderBottomStartRadius: 20,
     borderBottomEndRadius: 20,
     backgroundColor: "green",
+  },
+  FruitText: {
+    fontSize: 18,
+    color: "yellow",
   },
 });
