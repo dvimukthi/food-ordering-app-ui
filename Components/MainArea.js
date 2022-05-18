@@ -21,11 +21,10 @@ export default class MainArea extends Component {
           <View style={styles.TextContainer}>
             <Text style={styles.FruitText}>FRUIT</Text>
             <Text style={styles.FruitNameText}>Orange</Text>
-            <Text style={styles.Reviews}>
-              {" "}
+            <View style={styles.ReviewContainer}>
               <AntDesign name="star" style={styles.StarBtn} size={18} />
-              (451 Reviews)
-            </Text>
+              <Text style={styles.Reviews}>(451 Reviews)</Text>
+            </View>
             <View style={styles.PriceContainer}>
               <Text style={styles.Price}>$4.99</Text>
               <Text style={styles.Weight}>per Kg</Text>
@@ -83,6 +82,10 @@ const styles = StyleSheet.create({
     color: "yellow",
     marginLeft: 10,
   },
+  ReviewContainer: {
+    flexDirection: "row",
+    marginLeft: 8,
+  },
   FruitNameText: {
     color: "white",
     fontSize: 18,
@@ -91,7 +94,7 @@ const styles = StyleSheet.create({
   },
   Reviews: {
     color: "orange",
-    marginLeft: 7,
+    marginLeft: 5,
   },
   StarBtn: {
     color: "yellow",
