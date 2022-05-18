@@ -15,7 +15,7 @@ export default class MainArea extends Component {
         </View>
         <View style={styles.ImageContainer}>
           <Image
-            style={styles.image}
+            style={styles.OrangeImage}
             source={require("../Assets/orange.png")}
           />
         </View>
@@ -46,5 +46,13 @@ const styles = StyleSheet.create({
     color: "orange",
   },
   ArrowBtn: {},
-  ImageContainer: {},
+  ImageContainer: {
+    height: "50%",
+    width: "45%",
+    backgroundColor: "red",
+  },
+  OrangeImage: {
+    height: 50,
+    width: 50,
+  },
 });
