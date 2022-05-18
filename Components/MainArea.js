@@ -18,16 +18,16 @@ export default class MainArea extends Component {
             style={styles.OrangeImage}
             source={require("../Assets/orange.png")}
           />
-        </View>
-        <View style={styles.Text}>
-          <Text>Fruit</Text>
-          <Text>Orange</Text>
-          <Text>
-            {" "}
-            <AntDesign name="star" style={styles.ArrowBtn} size={12} />
-            (451 Reviews)
-          </Text>
-          <Text>$ 4.99</Text>
+          <View style={styles.TextContainer}>
+            <Text>Fruit</Text>
+            <Text>Orange</Text>
+            <Text>
+              {" "}
+              <AntDesign name="star" style={styles.ArrowBtn} size={12} />
+              (451 Reviews)
+            </Text>
+            <Text>$ 4.99</Text>
+          </View>
         </View>
       </View>
     );
@@ -57,16 +57,23 @@ const styles = StyleSheet.create({
   },
   ArrowBtn: {},
   ImageContainer: {
-    height: "38%",
+    height: "40%",
     width: "45%",
     backgroundColor: "red",
     borderTopStartRadius: 90,
     borderTopEndRadius: 90,
     marginTop: 20,
-    alignItems: "center",
+    //alignItems: "center",
   },
   OrangeImage: {
+    alignSelf: "center",
     height: 120,
     width: 140,
+  },
+  TextContainer: {
+    marginTop: 15,
+    borderBottomStartRadius: 20,
+    borderBottomEndRadius: 20,
+    backgroundColor: "green",
   },
 });
