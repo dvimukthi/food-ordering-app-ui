@@ -96,6 +96,9 @@ const styles = StyleSheet.create({
   StarBtn: {
     color: "yellow",
   },
+  PriceContainer: {
+    flexDirection: "row",
+  },
   Price: {
     marginTop: 5,
     marginLeft: 10,
@@ -103,5 +106,9 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
   },
-  Weight: {},
+  Weight: {
+    color: "orange",
+    textAlignVertical: "center",
+    marginLeft: 5,
+  },
 });
