@@ -22,10 +22,16 @@ const styles = StyleSheet.create({
   MainContainer: {
     backgroundColor: "red",
   },
+  Container: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
   FruitText: {
     fontSize: 18,
+    fontWeight: "bold",
   },
   ViewText: {
+    textAlignVertical: "center",
     fontSize: 12,
     fontWeight: "bold",
     color: "orange",
