@@ -19,14 +19,13 @@ export default class MainArea extends Component {
 }
 
 const styles = StyleSheet.create({
-  MainContainer: {
-    backgroundColor: "red",
-  },
+  MainContainer: {},
   Container: {
     flexDirection: "row",
     justifyContent: "space-between",
   },
   FruitText: {
+    color: "white",
     fontSize: 18,
     fontWeight: "bold",
   },
