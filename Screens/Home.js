@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import HeaderBar from "../Components/HeaderBar";
 import OfferArea from "../Components/OfferArea";
 import MainArea from "../Components/MainArea";
+import NavBar from "../Components/NavBar";
 
 export default class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class Home extends Component {
         <HeaderBar />
         <OfferArea />
         <MainArea />
+        <NavBar />
       </View>
     );
   }
