@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   ViewOfferBtn: {
-    backgroundColor: "orange",
+    backgroundColor: "#EFF6E0",
     borderRadius: 20,
     borderColor: "brown",
     borderWidth: 1,

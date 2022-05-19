@@ -22,14 +22,15 @@ const styles = StyleSheet.create({
   Container: {
     flexDirection: "row",
     marginTop: 15,
-    backgroundColor: "orange",
   },
   ListBtn: {
     paddingTop: 15,
+    color: "#EFF6E0",
   },
   ShoppingBagBtn: {
     paddingTop: 15,
     marginLeft: "65%",
+    color: "#EFF6E0",
   },
   ProfileImage: {
     marginLeft: "4%",

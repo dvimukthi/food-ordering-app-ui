@@ -20,7 +20,7 @@ export default class Home extends Component {
 
 const styles = StyleSheet.create({
   MainScreenContainer: {
-    backgroundColor: "#6c584c",
+    backgroundColor: "#01161E",
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
 });

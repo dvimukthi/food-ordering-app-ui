@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     marginRight: 10,
     fontWeight: "bold",
-    color: "orange",
+    color: "#AEC3B0",
   },
   ItemContainer: {
     flexDirection: "row",
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   ImageContainer: {
     height: "55%",
     width: "45%",
-    backgroundColor: "red",
+    backgroundColor: "#EFF6E0",
     borderTopStartRadius: 90,
     borderTopEndRadius: 90,
     marginTop: 20,
@@ -99,11 +99,11 @@ const styles = StyleSheet.create({
     marginTop: 15,
     borderBottomStartRadius: 20,
     borderBottomEndRadius: 20,
-    backgroundColor: "green",
+    backgroundColor: "#598392",
   },
   FruitText: {
     fontSize: 14,
-    color: "yellow",
+    color: "#124559",
     marginLeft: 10,
   },
   ReviewContainer: {
