@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   ImageContainer: {
     height: "55%",
     width: "45%",
-    backgroundColor: "#EFF6E0",
+    backgroundColor: "#AEB6BF",
     borderTopStartRadius: 90,
     borderTopEndRadius: 90,
     marginTop: 20,

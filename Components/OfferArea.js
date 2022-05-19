@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   ViewOfferBtn: {
     backgroundColor: "#EFF6E0",
     borderRadius: 20,
-    borderColor: "brown",
+    borderColor: "#AEC3B0",
     borderWidth: 1,
     marginTop: 18,
     marginLeft: "70%",
