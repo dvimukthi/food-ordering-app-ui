@@ -13,21 +13,23 @@ export default class MainArea extends Component {
             <AntDesign name="arrowright" style={styles.ArrowBtn} size={12} />
           </Text>
         </View>
-        <View style={styles.ImageContainer}>
-          <Image
-            style={styles.OrangeImage}
-            source={require("../Assets/orange.png")}
-          />
-          <View style={styles.TextContainer}>
-            <Text style={styles.FruitText}>FRUIT</Text>
-            <Text style={styles.FruitNameText}>Orange</Text>
-            <View style={styles.ReviewContainer}>
-              <AntDesign name="star" style={styles.StarBtn} size={18} />
-              <Text style={styles.Reviews}>(451 Reviews)</Text>
-            </View>
-            <View style={styles.PriceContainer}>
-              <Text style={styles.Price}>$4.99</Text>
-              <Text style={styles.Weight}>per Kg</Text>
+        <View style={styles.ItemContainer}>
+          <View style={styles.ImageContainer}>
+            <Image
+              style={styles.OrangeImage}
+              source={require("../Assets/orange.png")}
+            />
+            <View style={styles.TextContainer}>
+              <Text style={styles.FruitText}>FRUIT</Text>
+              <Text style={styles.FruitNameText}>Orange</Text>
+              <View style={styles.ReviewContainer}>
+                <AntDesign name="star" style={styles.StarBtn} size={18} />
+                <Text style={styles.Reviews}>(451 Reviews)</Text>
+              </View>
+              <View style={styles.PriceContainer}>
+                <Text style={styles.Price}>$4.99</Text>
+                <Text style={styles.Weight}>per Kg</Text>
+              </View>
             </View>
           </View>
         </View>
@@ -57,7 +59,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "orange",
   },
-  ArrowBtn: {},
+  ItemContainer: {},
   ImageContainer: {
     height: "40%",
     width: "45%",
