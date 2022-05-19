@@ -58,7 +58,8 @@ export default class MainArea extends Component {
 
 const styles = StyleSheet.create({
   MainContainer: {
-    margin: 5,
+    marginTop: 25,
+    margin: 10,
   },
   Container: {
     flexDirection: "row",

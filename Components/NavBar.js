@@ -8,14 +8,14 @@ export default class NavBar extends Component {
   render() {
     return (
       <View style={styles.Container}>
-        <View>
-          <Octicons name="home" style={styles.HomeBtn} size={20} />
-          <Octicons name="search" style={styles.SearchBtn} size={20} />
-          <Feather name="mail" style={styles.MailBtn} size={20} />
+        <View style={styles.IconContainer}>
+          <Feather name="home" style={styles.HomeBtn} size={30} />
+          <Octicons name="search" style={styles.SearchBtn} size={30} />
+          <Feather name="mail" style={styles.MailBtn} size={30} />
           <MaterialCommunityIcons
             name="dots-vertical"
             style={styles.DotsBtn}
-            size={20}
+            size={30}
           />
         </View>
       </View>
@@ -23,4 +23,18 @@ export default class NavBar extends Component {
   }
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  Container: {
+    alignItems: "center",
+  },
+  IconContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginVertical: 50,
+    marginBottom: 60,
+    marginHorizontal: 10,
+    backgroundColor: "orange",
+    height: 50,
+    width: "40%",
+  },
+});
