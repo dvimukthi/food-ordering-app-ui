@@ -24,7 +24,7 @@ export default class MainArea extends Component {
               <Text style={styles.FruitNameText}>Orange</Text>
               <View style={styles.ReviewContainer}>
                 <AntDesign name="star" style={styles.StarBtn} size={18} />
-                <Text style={styles.Reviews}>(451 Reviews)</Text>
+                <Text style={styles.Reviews}>(450 Reviews)</Text>
               </View>
               <View style={styles.PriceContainer}>
                 <Text style={styles.Price}>$4.99</Text>
@@ -39,13 +39,13 @@ export default class MainArea extends Component {
             />
             <View style={styles.TextContainer}>
               <Text style={styles.FruitText}>FRUIT</Text>
-              <Text style={styles.FruitNameText}>Orange</Text>
+              <Text style={styles.FruitNameText}>Strawberry</Text>
               <View style={styles.ReviewContainer}>
                 <AntDesign name="star" style={styles.StarBtn} size={18} />
-                <Text style={styles.Reviews}>(451 Reviews)</Text>
+                <Text style={styles.Reviews}>(500 Reviews)</Text>
               </View>
               <View style={styles.PriceContainer}>
-                <Text style={styles.Price}>$4.99</Text>
+                <Text style={styles.Price}>$5.99</Text>
                 <Text style={styles.Weight}>per Kg</Text>
               </View>
             </View>
