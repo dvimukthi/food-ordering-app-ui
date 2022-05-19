@@ -7,7 +7,8 @@ export default class NavBar extends Component {
     return (
       <View style={styles.Container}>
         <View>
-          <Octicons name="home" style={styles.homeBtn} size={20} />
+          <Octicons name="home" style={styles.HomeBtn} size={20} />
+          <Octicons name="search" style={styles.SearchBtn} size={20} />
         </View>
       </View>
     );
