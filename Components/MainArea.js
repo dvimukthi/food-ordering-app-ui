@@ -16,7 +16,7 @@ export default class MainArea extends Component {
         <View style={styles.ItemContainer}>
           <View style={styles.ImageContainer}>
             <Image
-              style={styles.OrangeImage}
+              style={styles.ProductImage}
               source={require("../Assets/orange.png")}
             />
             <View style={styles.TextContainer}>
@@ -34,8 +34,8 @@ export default class MainArea extends Component {
           </View>
           <View style={styles.ImageContainer}>
             <Image
-              style={styles.OrangeImage}
-              source={require("../Assets/orange.png")}
+              style={styles.ProductImage}
+              source={require("../Assets/strawberry.png")}
             />
             <View style={styles.TextContainer}>
               <Text style={styles.FruitText}>FRUIT</Text>
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     borderTopEndRadius: 90,
     marginTop: 20,
   },
-  OrangeImage: {
+  ProductImage: {
     alignSelf: "center",
     height: 120,
     width: 140,
